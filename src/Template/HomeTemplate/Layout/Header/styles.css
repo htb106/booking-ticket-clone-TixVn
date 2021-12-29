@@ -1,0 +1,6 @@
+.profile:hover .dropdownMenuProfile{
+    display: block;
+    top: 102%;
+    transition: all .2s linear; 
+    z-index: 2;
+};

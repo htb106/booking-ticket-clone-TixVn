@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'Roboto', sans-serif;
+};
+:root {
+    --swiper-theme-color:#fb4226 !important;
+};

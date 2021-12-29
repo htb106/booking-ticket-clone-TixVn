@@ -1,0 +1,31 @@
+.borderRight::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 32px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #cccccc;
+    width: 1px;
+}
+.pageActive{
+    background: #fb4226 !important;
+    border-radius: .5rem;
+    color: #fff;
+}
+.pageHover{
+    padding: .75rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+.pageHover:hover{
+    background: rgb(145, 145, 145);
+    color: #fff;
+}
+.inputSearch:focus{
+    /* border: 1px solid rgb(9, 255, 0);
+    border-radius: 6px; */
+    outline: rgb(9, 255, 0);
+}

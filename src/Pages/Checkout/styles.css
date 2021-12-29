@@ -1,0 +1,9 @@
+
+.headingActive{
+    transition: all .05s linear;
+    line-height: 1.5rem;
+}
+.headingActive:hover{
+    font-size: 1.875rem;
+    font-weight: 600;
+}
